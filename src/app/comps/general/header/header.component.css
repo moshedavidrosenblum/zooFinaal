@@ -1,0 +1,17 @@
+.bg-header { 
+    background-image: url("https://wallpaperplay.com/walls/full/7/2/f/300012.jpg");
+    display: flex; 
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    
+}
+
+.logo{width: 25%; ;}
+.logo > img {width: 100%;}
+
+
+app-nav{
+    display: block;
+    width: 50%;
+}

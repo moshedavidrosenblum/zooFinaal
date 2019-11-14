@@ -1,0 +1,16 @@
+
+<h1>Welcome to the beasats observatory</h1>
+
+<div class="flex">
+    <div>
+        <h2>our beasts list</h2>
+        <ul>
+            <li *ngFor="let b of beastsSvc.beasts"> {{ b.name }} </li>
+        </ul>
+    </div>
+
+
+    <div>
+        <app-bird-card></app-bird-card>
+    </div>
+</div>
