@@ -5,6 +5,7 @@ import { Injectable } from '@angular/core';
 })
 export class PagingService {
 public currentPanel='birds' 
+ 
   constructor() { 
     console.log('paging service constractor is working ,curentPanel='+this.currentPanel);
     

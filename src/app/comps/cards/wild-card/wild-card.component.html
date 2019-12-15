@@ -1,1 +1,9 @@
 <p>wild-card works!</p>
+
+<div>
+    <h3>{{ wildSvc.currentWild.name }}</h3>
+    <div>size: {{ wildSvc.currentWild.size }}</div>
+    <div>lifeSpan: {{ wildSvc.currentWild.lifeSpan }}</div>
+    <div>habitat: {{ wildSvc.currentWild.habitat }}</div>
+    <img [src]="wildSvc.currentWild.img"/>
+</div>

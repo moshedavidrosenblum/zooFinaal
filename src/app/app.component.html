@@ -1,5 +1,5 @@
 
-
+<div>
 
 <app-header></app-header>
 
@@ -7,3 +7,9 @@
 <app-beasts-panel *ngIf="paging.currentPanel == 'beasts'"></app-beasts-panel>
 <app-wilds-panel *ngIf="paging.currentPanel == 'wilds'"></app-wilds-panel>
 
+
+
+<app-paginator (moveItem)="$event"></app-paginator>
+<app-footer></app-footer>
+
+</div>
